@@ -27,3 +27,7 @@ Implementations of reinforcement learning examples.
 ## Author
 
 [Takuya Kiyokawa](https://takuya-ki.github.io/)  
+
+## LICENSE
+
+This software is released under the MIT License, see [LICENSE](./LICENSE).
