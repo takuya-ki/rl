@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-import os
 import gym
 import numpy as np
 import os.path as osp
@@ -157,12 +156,17 @@ if __name__ == '__main__':
     ETA = 0.5            # learning coefficient
     MAX_STEPS = 200      # number of steps in one trial
     NUM_EPISODES = 1000  # number of muximum trials
-    save_movie_path = osp.join(
+
+    save_dir_path = osp.join(
         osp.dirname(__file__),
         '..',
         'data',
-        'result',
+        'cartpole',
+        'result')
+    save_movie_path = osp.join(
+        save_dir_path,
         'movie_cartpole.mp4')
+    os.makedirs(save_movie_path, exist_ok=True)
 
     cartpole_env = Environment()
     cartpole_env.run()

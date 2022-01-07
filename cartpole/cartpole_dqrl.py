@@ -35,7 +35,8 @@ class ReplayMemory(object):
         self.memory = deque([], maxlen=capacity)
 
     def push(self, *args):
-        self.memory.append(Transition(*args))  # save a transition
+        """Saves a transition."""
+        self.memory.append(Transition(*args))
 
     def sample(self, batch_size):
         return random.sample(self.memory, batch_size)
