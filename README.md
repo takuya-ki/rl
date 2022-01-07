@@ -12,8 +12,12 @@ Implementations of reinforcement learning examples.
   - CUDA 11.0
 - Python 3.8
   - gym 0.21.0
+  - numpy 1.21.5
   - pyglet 1.5.21
   - matplotlib 3.1.1
+  - torch==1.9.1+cu111
+  - torchvision==0.10.1+cu111
+  - torchaudio==0.9.1
 
 ## Installation
 
