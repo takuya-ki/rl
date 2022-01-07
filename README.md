@@ -39,6 +39,7 @@ Implementations of reinforcement learning examples.
 <img src="./data/readme/movie_cartpole.gif" height="300"/>
 
     $ python robot/train_kuka_grasp.py
+    $ python robot/eval_kuka_grasp.py
 <img src="./data/readme/movie_kuka.gif" height="300"/>
 
 ## Author / Contributor
