@@ -293,6 +293,7 @@ if __name__ == '__main__':
 
     save_model_path = osp.join(
         osp.dirname(__file__),
+        '..',
         'data',
         'result',
         'robot',
