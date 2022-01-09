@@ -1,6 +1,6 @@
 # rl
 
-Implementations of reinforcement learning examples.
+Implementations of reinforcement learning examples
 
 ## References
 
@@ -29,7 +29,7 @@ Implementations of reinforcement learning examples.
 
 ## Installation
 
-    $ git clone git@github.com:takuya-ki/rl.git
+    $ git clone git@github.com:takuya-ki/rl.git; cd rl
     $ pip install -r requirements.txt
 
 ## Usage
