@@ -10,11 +10,13 @@ Implementations of reinforcement learning examples
 ## Dependencies (tested)
 
 - Windows 10
-  - GPU Driver 471.11
-  - CUDA 11.1
+  - GPU: NVIDIA GeForce RTX 3080
+    - Driver 471.11
+    - CUDA 11.1
 - Ubuntu 18.04
-  - GPU Driver 470.57
-  - CUDA 11.0
+  - GPU: NVIDIA GeForce RTX 3080
+    - Driver 470.57
+    - CUDA 11.0
 - Python 3.7.3
   - gym 0.21.0
   - numpy 1.21.5
