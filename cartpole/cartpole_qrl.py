@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-from __future__ import print_function
 
+import os
 import gym
 import numpy as np
 import os.path as osp
@@ -161,12 +160,12 @@ if __name__ == '__main__':
         osp.dirname(__file__),
         '..',
         'data',
-        'cartpole',
-        'result')
+        'result',
+        'cartpole')
     save_movie_path = osp.join(
         save_dir_path,
         'movie_cartpole.mp4')
-    os.makedirs(save_movie_path, exist_ok=True)
+    os.makedirs(save_dir_path, exist_ok=True)
 
     cartpole_env = Environment()
     cartpole_env.run()

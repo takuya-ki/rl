@@ -18,9 +18,9 @@ Implementations of reinforcement learning examples
     - Driver 470.57
     - CUDA 11.0
 - Python 3.7.3
-  - gym 0.21.0
+  - gym 0.20.0
   - numpy 1.21.5
-  - ipython 7.4.0
+  - ipython 7.31.1
   - pyglet 1.5.21
   - matplotlib 3.1.1
   - torch 1.9.1 
