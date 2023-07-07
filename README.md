@@ -30,18 +30,22 @@ Implementations of reinforcement learning examples
   - tensorboardX 2.4.1
 
 ## Installation
-
-    $ git clone git@github.com:takuya-ki/rl.git; cd rl
-    $ pip install -r requirements.txt
+```bash
+git clone git@github.com:takuya-ki/rl.git; cd rl
+pip install -r requirements.txt
+```
 
 ## Usage
-
-    $ python cartpole/cartpole_qrl.py
-    $ python cartpole/cartpole_dqrl.py
+```bash
+python cartpole/cartpole_qrl.py
+python cartpole/cartpole_dqrl.py
+```
 <img src="./data/readme/movie_cartpole.gif" height="300"/>
 
-    $ python robot/train_kuka_grasp.py
-    $ python robot/eval_kuka_grasp.py
+```bash
+python robot/train_kuka_grasp.py
+python robot/eval_kuka_grasp.py
+```
 <img src="./data/readme/movie_kuka.gif" height="300"/>
 
 ## Author / Contributor
